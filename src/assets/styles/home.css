@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex: 1;
+}
+.form-container{
+    display: flex;
+    flex: 1.25;
+}
+.notes-container{
+    flex: 3;
+}
