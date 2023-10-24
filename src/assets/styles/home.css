@@ -11,5 +11,76 @@
     flex: 1.25;
 }
 .notes-container{
-    flex: 3;
+    display: flex;
+    width: 100%;
+    padding: 20px 28px 449px 28px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 51px;
+    background: #F1E0FF;
+    flex-direction: column;
+}    
+
+.todo-note-container{
+    width: 100%;
+    text-align: center;
+    
+    
+    
+    
 }
+
+.complet-note-container{
+    width: 100%;
+    text-align: center;
+}
+
+.note-container {
+    width: 30%;
+    /* border-radius: 5px 5px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    row-gap: 10px;
+    box-shadow: 0px 3px 3px -2px rgba(208, 208, 208, 0.2), 3px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+    
+}
+
+.note-status{
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    
+    
+}
+.note-header{
+    width: calc(100% - 30px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #C6B5F4;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+    
+   
+
+}
+.note-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.note-title{
+    flex: 1;
+    margin: 0px;
+}
+
+.note-date, .note-description{
+ 
+ font-size: 14px;
+}
+
+
