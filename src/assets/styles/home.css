@@ -7,6 +7,7 @@
     display: flex;
     flex: 1;
     padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-container{
@@ -18,7 +19,6 @@
 }
 
 .form{
-    font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     width: 95%;
     display: flex;
@@ -95,7 +95,7 @@
 
 .notes-container{
     display: flex;
-    width: 100%;
+    flex: 2.75;
     padding: 20px 28px 449px 28px;
     justify-content: center;
     align-items: flex-start;
@@ -105,12 +105,12 @@
 }    
 
 .todo-note-container{
+    display: flex;
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-wrap: wrap;
     width: 100%;
     text-align: center;
-    
-    
-    
-    
 }
 
 .complet-note-container{
